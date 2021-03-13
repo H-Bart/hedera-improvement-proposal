@@ -1,16 +1,16 @@
 ---
 hip: <HIP number (this is determined by the HIP editor)>
-title: <HIP title>
-author: <a list of the author’s or authors’ name(s) and/or username(s), or name(s) and email(s).>
-type: <Standards Track | Informational | Process>
-category: <Core | Service | API | Mirror | Application>
-status: <Draft | Active | Inactive | Provisional | Deferred | Rejected | Withdrawn | Final | Replaced >
-created: <date created on>
+title: Hedera Name Service
+author: H. Bart - hbart.lit@gmail.com
+type: Standards Track
+category: Service
+status: Draft
+created: 2021-03-13
 discussions-to: <a URL pointing to the official discussion thread>
-updated: <comma separated list of dates>
-requires: <HIP number(s)>
-replaces: <HIP number(s)>
-superseded-by: <HIP number(s)>
+updated:
+requires:
+replaces:
+superseded-by:
 ---
 
 ## Abstract
