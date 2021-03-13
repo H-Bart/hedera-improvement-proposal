@@ -28,7 +28,7 @@ Furthermore, the proposed Hedera Name Service(HNS) excels existing systems by en
 ## Rationale
 
 The Hedera Name Service offers numerous benefits to both domain users and end users over existing centralised systems. It enables domain owners to:
-* near instantly update their domains DNS RR, which includes A/AAAA records for increasing website uptime and enabling censhorship resistance amongst other use cases, and TLSA records for near instant approval/revokation of TLS public keys/certificates,
+* near instantly update their domains DNS RR, which includes A/AAAA records for increasing website uptime and enabling censorship resistance amongst other use cases, and TLSA records for near instant approval/revocation of TLS public keys/certificates,
 * near instantly transfer or trade domains via atomic swaps, and
 * add multisig control of a domain for enhanced security.
 
