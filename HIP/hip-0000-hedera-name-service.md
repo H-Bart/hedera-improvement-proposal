@@ -56,25 +56,25 @@ To ensure backwards compatibility with existing DNS infrastructure all domain ow
 
 ## Security Implications
 
-If there are security concerns in relation to the HIP, those concerns should be explicitly addressed to make sure reviewers of the HIP are aware of them.
+The Hedera Council may have to continuously update the list of trusted CA's to enable the secure onboarding of existing DNS domain owners. 
+
+If the keys to a Hedera Account that owns a given domain are lost that may render the domain indefinitely inactive. A potential solution would be to have a domain owner periodically prove a domain's activeness and if rendered inactive the domain is re-auctioned by the Hedera network.
 
 ## How to Teach This
 
-For a HIP that adds new functionality or changes interface behaviors, it is helpful to include a section on how to teach users, new and experienced, how to apply the HIP to their work.
+Frontend interfaces would have to be developed for enabling users to register HNS native SLDs or for onboarding existing domains and should have their respective tutorials educating users on proper interaction with the application. In addition the Hedera developer tutorials/documentation should be sufficiently detailed to enable the development of the aforementioned user facing applications.
 
 ## Reference Implementation
 
-The reference implementation must be complete before any HIP is given the status of “Final”. The final implementation must include test code and documentation.
+N/A
 
 ## Rejected Ideas
 
-Throughout the discussion of a HIP, various ideas will be proposed which are not accepted. Those rejected ideas should be recorded along with the reasoning as to why they were rejected. This both helps record the thought process behind the final version of the HIP as well as preventing people from bringing up the same rejected idea again in subsequent discussions.
-
-In a way, this section can be thought of as a breakout section of the Rationale section that focuses specifically on why certain ideas were not ultimately pursued.
+N/A
 
 ## Open Issues
 
-While a HIP is in draft, ideas can come up which warrant further discussion. Those ideas should be recorded so people know that they are being thought about but do not have a concrete resolution. This helps make sure all issues required for the HIP to be ready for consideration are complete and reduces people duplicating prior discussions.
+N/A
 
 ## References
 
