@@ -52,7 +52,7 @@ To incentivise HNS native SLD registration regardless of an *initial domain regi
 
 ## Backwards Compatibility
 
-All HIPs that introduce backward incompatibilities must include a section describing these incompatibilities and their severity. The HIP must explain how the author proposes to deal with these incompatibilities. HIP submissions without a sufficient backward compatibility treatise may be rejected outright.
+To ensure backwards compatibility with existing DNS infrastructure all domain owners that can prove ownership of a domain to the Hedera network can be onboarded onto HNS. This can be achieved by a domain owner proving ownership of a public key vouched for in an SSL certificate for that domain that must be signed by any one CA in the list of trusted CAs vetted by the Hedera Council. If HNS were to be widely adopted the Hedera network may decide to enable registration of SLDs under TLDs other than the TLD ".hh" and TLDs still managed by ICANN. However if HNS were to become the de facto domain name system, the Hedera network may assume management of all TLDs.
 
 ## Security Implications
 
