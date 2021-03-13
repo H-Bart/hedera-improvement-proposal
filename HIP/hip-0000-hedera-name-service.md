@@ -27,9 +27,13 @@ Furthermore, the proposed Hedera Name Service(HNS) excels existing systems by en
 
 ## Rationale
 
-The rationale fleshes out the specification by describing why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages.
+The Hedera Name Service offers numerous benefits to both domain users and end users over existing centralised systems. It enables domain owners to:
+* near instantly update their domains DNS RR, which includes A/AAAA records for increasing website uptime and enabling censhorship resistance amongst other use cases, and TLSA records for near instant approval/revokation of TLS public keys/certificates,
+* near instantly transfer or trade domains via atomic swaps, and
+* add multisig control of a domain for enhanced security.
 
-The rationale should provide evidence of consensus within the community and discuss important objections or concerns raised during the discussion.
+Besides the mutual security benefits shared by both domain owners and their respective clients, other potential benefits include:
+* the ability for clients to issue payments directly to a given domain owner's wallet, by specifying the domain name in the transaction address field as opposed to the Hedera Hashgraph address alias, as the latter isn't as user friendly as a human readable string. 
 
 ## Specification
 
