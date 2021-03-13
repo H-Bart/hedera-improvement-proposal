@@ -37,16 +37,16 @@ Besides the mutual security benefits shared by both domain owners and their resp
 
 ## Specification
 
-Backwards Compatibility will be described more completely in the next section. To allow for backwards compatibility with existing DNS infrastructure Hedera will initially only allow for HNS native second-level domains(SLD) to be registered under the top-level domain(TLD) ".hh"(which is an initialism for Hedera Hashgraph). Furthermore, a SLD owner can register subdomains under their SLD, noting that the subdomains are comprise the non-fungible SLD, hence any transfer on a given SLD entails the transfer of that SLD's subdomains if any. It is suggested that the Hedera Council secure ownership of the TLD ".hh" from ICANN.
+Backwards Compatibility will be described more completely in the next section. To allow for backwards compatibility with existing DNS infrastructure Hedera will initially only allow for HNS native second-level domains(SLD) to be registered under the top-level domain(TLD) ".hh"(which is an initialism for Hedera Hashgraph). Furthermore, an SLD owner can register subdomains under their SLD, noting that the SLD comprises the subdomains in a non-fugible manner, hence any transfer on a given SLD entails the transfer of that SLD's subdomains if any. It is suggested that the Hedera Council secure ownership of the TLD ".hh" from ICANN.
 
 HNS native SLDs can be registered in a fair equitable manner that mitigates issues such as domain hoarding and domain sniping(i.e. the early registration of a potentially lucrative domain at a fixed cost in the hopes of selling at profit) by early adopters as follows:
-* on registration on an SLD by an initial registrant the SLD is auctioned off by the Hedera network as described below.
-* Decentralised auction marketplaces typically use either of 2 auction styles to mitigate price sniping; either *Vickrey* or *Candle* styled auctions. The proposed auction format is as follows.
+* on registration of an SLD by an initial registrant the SLD is auctioned off by the Hedera network as described below.
+* Decentralised auction marketplaces typically use either of 2 auction styles to mitigate price sniping; namely *Vickrey* or *Candle* styled auctions. The proposed auction format is as follows.
 * The auction style is an *absolute* auction which is divided into 2 phases of suitably defined durations.
     1. The first and opening phase is initialised by the network on a successful SLD registration attempt by the *initial domain registrant* and should have a duration suitably long enough for all potential and globally distributed participants to be informed of the auction and arrange the necessary funds to participate therein(possibly 3 days long).
     2. The second and closing phase of the auction is a *Candle* styled auction which as previously mentioned is used to mitigate price sniping(possibly about an equiprobable distribution over day with a mean duration of 12 hours).
 
-To incentivise HNS native SLD registration regardless of an *initial domain registrant's* financial capacity to win an auction a small commission of the winning bid can be awarded to the *registrant*, whilst the remaining and largest portion of the winning bid can be allocated to the Hedera treasury to be used at the discretion of the Hedera council.
+To incentivise HNS native SLD registration regardless of an *initial domain registrant's* financial capacity to win an auction a small commission of the winning bid can be awarded to the *registrant*, whilst the remaining and largest portion of the winning bid can be allocated to the Hedera treasury to be used at the discretion of the Hedera Council.
 
 ## Backwards Compatibility
 
