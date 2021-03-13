@@ -62,7 +62,7 @@ If the keys to a Hedera Account that owns a given domain are lost that may rende
 
 ## How to Teach This
 
-Frontend interfaces would have to be developed for enabling users to register HNS native SLDs or for onboarding existing domains and should have their respective tutorials educating users on proper interaction with the application. In addition the Hedera developer tutorials/documentation should be sufficiently detailed to enable the development of the aforementioned user facing applications.
+Frontend interfaces would have to be developed for enabling users to register HNS native SLDs or for onboarding existing domains and should have their respective tutorials educating their userbase on proper interaction with their application. In addition the Hedera developer tutorials/documentation should be sufficiently detailed to enable the development of the aforementioned user facing applications.
 
 ## Reference Implementation
 
@@ -78,7 +78,13 @@ N/A
 
 ## References
 
-A collections of URLs used as references through the HIP.
+DANE: https://tools.ietf.org/html/rfc7671
+Handshake: https://handshake.org/files/handshake.txt
+DPKI: https://danubetech.com/download/dpki.pdf
+Namecoin Whitepapers: https://www.namecoin.org/resources/whitepaper/
+ENS: https://docs.ens.domains/
+Unstoppable Domains: https://docs.unstoppabledomains.com/
+Polkadot Parachain Slots Candle Auctions: https://wiki.polkadot.network/docs/en/learn-auction
 
 ## Copyright/license
 
