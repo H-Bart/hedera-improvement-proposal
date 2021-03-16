@@ -78,14 +78,14 @@ N/A
 
 ## References
 
-DANE: https://tools.ietf.org/html/rfc7671
-Handshake: https://handshake.org/files/handshake.txt
-Namebase: https://www.namebase.io/
-DPKI: https://danubetech.com/download/dpki.pdf
-Namecoin Whitepapers: https://www.namecoin.org/resources/whitepaper/
-ENS: https://docs.ens.domains/
-Unstoppable Domains: https://docs.unstoppabledomains.com/
-Polkadot Parachain Slots Candle Auctions: https://wiki.polkadot.network/docs/en/learn-auction
+DANE: https://tools.ietf.org/html/rfc7671  
+Handshake: https://handshake.org/files/handshake.txt  
+Namebase: https://www.namebase.io/  
+DPKI: https://danubetech.com/download/dpki.pdf  
+Namecoin Whitepapers: https://www.namecoin.org/resources/whitepaper/  
+ENS: https://docs.ens.domains/  
+Unstoppable Domains: https://docs.unstoppabledomains.com/  
+Polkadot Parachain Slots Candle Auctions: https://wiki.polkadot.network/docs/en/learn-auction  
 
 ## Copyright/license
 
